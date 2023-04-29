@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./noticia.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- BOTAO MODO ESCURO CSS -->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+
+    <!---------------- MENU / NAV BAR / PAGINA TV CANDIDES ---------------->
+
+    <nav class="navbar navbar-light bg-light">
+
+			<!------
+			<div class="dropdown">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Botão dropdown
+				</button>
+
+        <button id="theme-toggle">
+			------->
+			<div class="dropdown">
+
+				<button class="navbar-toggler" id="dropdownMenuButton" type="button" data-toggle="dropdown" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Alterna navegação">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="../index.html">Página Principal</a>
+				  <a class="dropdown-item" href="#">Nossa História</a>
+				  <a class="dropdown-item" href="#">Entre em Contato</a>
+				</div>
+			</div>
+          
+
+		  <a class="navbar-brand"></a>
+			<img src="../logo/tvcandides.png" alt="Logo TV Candides" class="logo" style="height: 80px; max-height: 100%;">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Digite uma palavra-chave" aria-label="Pesquisar">
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+    </nav>
+    
+    <!---------------- SLOGAN TV CANDIDES ---------------->
+    <div class="slogan">
+      <h2>Aqui a cidade tem mais espaço!</h2>
+    </div>
+
+    <!-------
+      <div class="modo-escuro">
+        <button id="theme-toggle"><p>Modo Escuro:</p><input type="checkbox" checked data-toggle="toggle" id="theme-toggle"></button>
+      </div> 
+    ------>
+    
+    
+    <div class="container">
+
+      <div id="text-left-container" class="text-left-container">
+        <div id="text-left" class="text-left">
+          <h3 id="title">TV CANDIDÉS</h3>
+          <p class="p p1">ESPORTE NA ÁREA</p>
+          <p class="p p2">Galo vence e avança na Libertadores!</p>
+          <p class="p p3">O Atlético-MG conquistou uma vitória importante na Copa Libertadores.
+            A equipe mostrou um bom desempenho em campo, superando o adversário com um placar favorável. 
+            Com essa vitória, o Atlético-MG segue firme em busca do título da Libertadores.</p>
+        </div>
+      </div>
+
+      <div class="aovivo">
+        <!---    https://www.youtube.com/watch?v=oqpJPrBt9i8&t=17s   -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SMRT-B285XU" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+      </div>     
+      
+      <div id="textos-direita-container">
+
+        <div id="textos_direita">
+            <h5>Outras Notícias:</h5><br><br>
+            <p class="p p1">Buracos preocupam moradores de Divinópolis</p>
+
+            <p class="p p2">Saiba tudo o que rolou no Miss Minas Gerais 2023</p>
+
+            <p class="p p3">Saiba quem será o novo técnico do Cruzeiro</p>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+    
+    <script src="./script.js"></script>
+
+
+  <!--=============================== BOOTSTRAP CSS =================================================-->	
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!--===============================================================================================-->
+
+    <!--=======================BOTAO MODO ESCURO ================================================-->
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+
+  </body>
+
+  
+
+</html>

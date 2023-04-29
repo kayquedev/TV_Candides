@@ -1,0 +1,530 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
+	line-height: 1.5;
+	transition: all 0.5s;
+}
+
+.modo-escuro {
+	width: 30%;
+	position: relative;
+
+	left: 5%;
+
+}
+
+
+.bg-light {   /* NAV BAR */
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #00367c;
+}
+
+.modo-escuro button:focus {
+	outline: none;
+}
+
+.modo-escuro button {
+	width: 70%;
+	border: none;
+	border-radius: 10px;
+
+	background-color: #f8f9fa;
+
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-175%);
+}
+
+.modo-escuro p {
+	width: 50%;
+	font-size: 17px;
+	font-weight: bold;
+	
+	position: absolute;
+	right: 65%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.modo-escuro button .btn-primary {
+	border: none;
+	border-radius: 10px;
+	background-color: #262626;
+	border-color: #262626;
+}
+
+.modo-escuro button .toggle-off.btn {
+	border-color: #dddddd;
+}
+
+.container-pagina.dark-mode, body.dark-mode {
+	background-color: #262626; /* cor de fundo do modo escuro */
+	color: #ffffff; /* cor de texto do modo escuro */
+}
+
+
+.container {   /* CONTAINER DO SITE (TEXTO + VIDEO + TEXTO) */
+	overflow: hidden; /* para criar um contexto de formatação para os elementos com float */
+	flex-direction: column;
+	height: 100%;
+	flex-direction: row;
+	margin: 0 auto;
+	display: flex; /* Define a div "wrapper" como um container flexível */
+	align-items: center; /* Alinha o conteúdo verticalmente no centro */
+
+}
+  
+
+/* BARRA LATERAL ESQUEDA */
+
+#text-left {
+	text-align: center; /* centralizar o texto */
+	font-family: "Arial", sans-serif; /* escolher uma fonte */
+	font-size: 16px; /* definir o tamanho da fonte */
+	line-height: 1.5; /* definir o espaçamento entre as linhas */
+	margin-right: 20px;
+}
+
+#text-left-container {
+	display: flex; /* Define a div "wrapper" como um container flexível */
+	align-items: center; /* Alinha o conteúdo verticalmente no centro */
+}
+
+#text-left #title{ /* BARRA LATERAL ESQUEDA  TITULO */
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#text-left .p{ /* BARRA LATERAL ESQUEDA PARAGRAFOS */
+	font-size: 17px;
+}
+
+#text-left .p1 {
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#text-left .p2 {
+	margin-top: 10px;
+}
+
+#text-left .p3 {
+	margin-top: 80px;
+}
+
+#text-left .p5 {
+	margin-top: 50px;
+}
+
+
+
+#video_aovivo {
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.aovivo {
+	margin: 0 auto;
+	height: 600px;
+	display: flex; /* Define a div "wrapper" como um container flexível */
+	align-items: center; /* Alinha o conteúdo verticalmente no centro */
+}
+
+#textos-direita-container {
+	display: flex; /* Define a div "wrapper" como um container flexível */
+	align-items: center; /* Alinha o conteúdo verticalmente no centro */
+	margin: 0 auto;
+}
+
+#textos_direita {
+	font-size: 18px;
+    width: 160px;
+	margin: 0 auto;
+	justify-content: center;
+
+}
+
+#textos_direita p {
+	margin-top: 30px;
+}
+
+
+/* ----------NAV BAR / MENU / BARRA DE NAVEGAÇÃO ------------ */
+
+.slogan {
+    background-image: url("../imagens/slogan.png");
+    background-size: cover;;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.bg-light {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slogan h2 {
+    align-items: center;
+}
+
+.slogan {
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 460px) {
+	
+	#text-left #title {  /* BARRA LATERAL ESQUEDA  TITULO */
+		margin-top: 40px;
+		font-size: 30px;
+	}
+
+	.container {   /* CONTAINER DO SITE (TEXTO + VIDEO + TEXTO) */
+		width: 50%;
+		display: block;
+	}
+
+	#text-left #title{ /* BARRA LATERAL ESQUEDA  TITULO */
+		margin-bottom: 30px;
+	}
+	
+
+	#text-left-container {
+		display: flex; /* Define a div "wrapper" como um container flexível */
+	}
+
+	#text-left {
+		margin: 0 auto;
+	}
+
+	#text-left .p {
+		margin-top: 10px;
+		align-items: center;
+	}
+
+	#text-left .p3 {
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	#text-left .p5 {
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	#video_aovivo {
+		width: 350px;
+		height: 200px;
+		margin: 0 auto;
+	}
+
+	.aovivo {
+		width: 300px;
+		height: 400px;
+	}
+
+	
+	#textos-direita-container {
+		display: relative; /* Define a div "wrapper" como um container flexível */
+	}
+
+	#textos_direita {
+		font-size: 18px;
+		margin: 0 auto;
+		justify-content: center;
+		margin-bottom: 50px;
+
+	}
+    
+
+	#textos_direita p {
+		margin-top: 20px;
+	}
+
+	.modo-escuro button {
+		width: 70%;
+		border: none;
+		border-radius: 10px;
+	
+		background-color: #f8f9fa;
+	
+		position: absolute;
+		left: 230%;
+		top: 50%;
+		transform: translateY(-180%);
+	}
+	
+	.modo-escuro p {
+		display: none;
+	}
+
+	.form-inline  .btn-primary {
+		display: none;
+	}
+
+	.form-inline .form-control {
+		display: none;
+	}
+
+	.navbar .logo{
+		transform: translateX(-80%);
+	}
+
+}
+@media only screen and (min-width: 461px) and (max-width: 575px){
+
+	.form-inline  .btn-primary {
+		display: none;
+	}
+
+	.form-inline .form-control {
+		display: none;
+	}
+
+	.navbar .logo{
+		transform: translateX(-80%);
+	}
+
+	.modo-escuro p {
+		display: none;
+	}
+
+	.modo-escuro button {
+		position: absolute;
+		left: 230%;
+		transform: translateY(-180%);
+	}
+
+	#text-left #title {  /* BARRA LATERAL ESQUEDA  TITULO */
+		margin-top: 40px;
+	}
+
+	.container {   /* CONTAINER DO SITE (TEXTO + VIDEO + TEXTO) */
+		width: 70%;
+		display: block;
+	
+	}
+
+	#text-left #title{ /* BARRA LATERAL ESQUEDA  TITULO */
+		margin-bottom: 30px;
+	}
+	
+
+	#text-left-container {
+		display: flex; /* Define a div "wrapper" como um container flexível */
+	}
+
+	#text-left {
+		margin: 0 auto;
+	}
+
+	#text-left .p {
+		margin-top: 10px;
+		align-items: center;
+	}
+
+	#text-left .p3 {
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	#text-left .p5 {
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	#video_aovivo {
+		width: 550px;
+		height: 300px;
+		margin: 0 auto;
+	}
+
+	.aovivo {
+		width: 600px;
+		height: 500px;
+	}
+
+	
+	#textos-direita-container {
+		display: relative; /* Define a div "wrapper" como um container flexível */
+	}
+
+	#textos_direita {
+		font-size: 18px;
+		margin: 0 auto;
+		justify-content: center;
+		margin-bottom: 50px;
+
+	}
+
+	#textos_direita p {
+		margin-top: -20px;
+	}
+
+	.modo-escuro p {
+		width: 50%;
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+
+
+	#text-left #title {  /* BARRA LATERAL ESQUEDA  TITULO */
+		margin-top: 50px;
+	}
+
+	.container {   /* CONTAINER DO SITE (TEXTO + VIDEO + TEXTO) */
+		width: 70%;
+		display: block;
+	
+	}
+
+	#text-left #title{ /* BARRA LATERAL ESQUEDA  TITULO */
+		margin-bottom: 30px;
+	}
+	
+
+	#text-left-container {
+		display: flex; /* Define a div "wrapper" como um container flexível */
+	}
+
+	#text-left {
+		margin: 0 auto;
+	}
+
+	#text-left .p {
+		margin-top: 10px;
+		align-items: center;
+	}
+
+	#text-left .p3 {
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	#text-left .p5 {
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	#video_aovivo {
+		width: 550px;
+		height: 300px;
+		margin: 0 auto;
+	}
+
+	.aovivo {
+		width: 600px;
+		height: 500px;
+	}
+
+	
+	#textos-direita-container {
+		display: relative; /* Define a div "wrapper" como um container flexível */
+	}
+
+	#textos_direita {
+		font-size: 18px;
+		margin: 0 auto;
+		justify-content: center;
+		margin-bottom: 50px;
+
+	}
+
+	#textos_direita p {
+		margin-top: -20px;
+	}
+
+	.modo-escuro p {
+		width: 50%;
+		font-size: 15px;
+	}
+	
+	
+
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+	
+	#text-left #title {  /* BARRA LATERAL ESQUEDA  TITULO */
+		font-size: 25px;
+	}
+
+	
+	#text-left-container {
+		width: 200px;
+
+	}
+
+	#text-left .p{ /* BARRA LATERAL ESQUEDA PARAGRAFOS */
+		font-size: 16px;
+	}
+	
+
+	#video_aovivo {
+		width: 500px;
+		height: 280px;
+		margin: 0 auto;
+	}
+
+	
+	.aovivo {
+		margin: 0 auto;
+		height: 600px;
+		display: flex; /* Define a div "wrapper" como um container flexível */
+		align-items: center; /* Alinha o conteúdo verticalmente no centro */
+	}
+	
+    #texto-direita .p{
+        background-color: #262626;
+        margin-top: 50px;
+    }
+	
+
+} @media only screen and (min-width: 1200px) {
+	#text-left #title {  /* BARRA LATERAL ESQUEDA  TITULO */
+		font-size: 25px;
+	}
+
+	#text-left-container {
+		width: 400px;
+	}
+
+	#textos-direita-container {
+		width: 200px;
+		margin-left: 50px;
+	}
+
+	#video_aovivo {
+		width: 700px;
+		height: 400px;
+		margin: 0 auto;
+	}
+
+    #texto-direita .p{
+        background-color: #262626;
+        margin-top: 50px;
+    }
+	
+}
