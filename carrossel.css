@@ -1,0 +1,150 @@
+
+.carrossel_insc {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.carrossel_insc .carousel-control-prev span {
+  background-color: #262626;
+  padding: 10px;
+  height: 50px;
+  margin-right: 300px;
+  margin-top: -30px;
+  font-size: 10px;
+}
+
+.carrossel_insc .carousel-control-next span {
+  background-color: #262626;
+  padding: 10px;
+  height: 50px;
+  margin-left: 300px;
+  margin-top: -30px;
+  font-size: 10px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  background-color: blueviolet;
+}
+
+.carrossel_insc .cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .carrossel_insc .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .carrossel_insc .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+    text-align: center;
+  }
+  
+  .carrossel_insc .carousel-inner {
+    padding: 1em;
+  }
+
+  
+  .insc-title {
+    font-size: 50px;
+  }
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 460px) {
+
+    .carrossel_insc {
+      width: 75%;
+    }
+
+    .carrossel_insc .carousel-control-prev span {
+      padding: 12px;
+      margin-right: 80px;
+    }
+
+    .carrossel_insc .carousel-control-next span {
+      padding: 12px;
+      margin-left: 80px;
+    }
+
+  }
+
+  @media only screen and (min-width: 461px) and (max-width: 575px) {
+
+    .carrossel_insc {
+      width: 75%;
+      margin-bottom: 300px;
+    }
+
+    .carrossel_insc .carousel-control-prev span {
+      padding: 12px;
+      margin-right: 90px;
+    }
+
+    .carrossel_insc .carousel-control-next span {
+      padding: 12px;
+      margin-left: 90px;
+    }
+
+    .insc-title {
+      font-size: 35px;
+    }
+
+  } 
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    
+    .carrossel_insc {
+      width: 70%;
+      margin-bottom: 250px;
+    }
+
+    .carrossel_insc .carousel-control-prev span {
+      padding: 15px;
+      margin-right: 160px;
+    }
+
+    .carrossel_insc .carousel-control-next span {
+      padding: 15px;
+      margin-left: 160px;
+    }
+
+    .insc-title {
+      font-size: 45px;
+    }
+
+  } 
+  
+  @media only screen and (min-width: 767px) and (max-width: 950px) {
+
+    .carrossel_insc {
+      width: 80%;
+      margin-bottom: 200px;
+    }
+
+    .carrossel_insc .carousel-control-prev span {
+      padding: 15px;
+      margin-right: 160px;
+    }
+
+    .carrossel_insc .carousel-control-next span {
+      padding: 15px;
+      margin-left: 160px;
+    }
+
+    .insc-title {
+      font-size: 50px;
+    }
+
+
+  }

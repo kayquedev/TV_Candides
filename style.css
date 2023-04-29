@@ -1,0 +1,686 @@
+
+body {
+    height: 2000px;
+}
+
+.bg0 {
+    background-color: #262626;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    margin-top: 0;
+}
+
+
+.navbar-brand img {
+    height: 50px !important;
+    width: auto !important;
+}
+  
+
+.navbar-brand {
+    background-image: url("images/Rectangle-12.png");
+    position: relative;
+    display: flex;
+}
+
+#navbar {
+    width: 100%;
+    height: 635px;
+    background-color: #262626;
+}
+
+#navbar .card {
+    width: 95%;
+}
+
+.btn-primary {
+    background-color: #00367c;
+    border-color: #00367c;
+  }
+
+/* Rectangle 17 */
+.prog {
+
+    position: absolute;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 80px;
+    margin-bottom: 100px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #d3d3d3;
+    border-radius: 30px;
+
+}
+
+.prog p {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 84px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+
+
+    color: #000000;
+}
+
+.box-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  
+.box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 160px;
+    font-size: 36px;
+    margin-right: 20px;
+    margin-top: 150px;
+  }
+  
+
+.proga {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.proga-datas button {
+    background-color: #565656;
+    border-color: #565656;
+    padding: 17px;
+}
+
+.insc-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+.insc {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -50px;
+
+}
+
+.box2 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+.card-deck {
+    width: 1200px; /* Define a largura do card */
+    height: 400px; /* Define a altura do card */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-not {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do título e parágrafo da notícia */
+  .noticia {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Estilo do vídeo */
+  video {
+    width: 250px;
+    height: 140px;
+  }
+
+  /* CARDS JORNALISTICO */
+
+
+  .box-noticias h2 {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .box-noticias {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+
+  #box-jornal {
+      width: 70%;
+      margin: 0 auto;
+  }
+
+  #box-jornal .card{
+    margin-right: 20px;
+}
+
+  #box-jornal h5 {
+      color: #00367c;
+  }
+
+  .jornalismo-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .jornalismo-title h1 {
+      font-size: 40px;
+      font-weight: bold;
+      color: #00367c;
+  }
+
+  .jornalismo-title .op {
+      display: flex;
+      justify-content: space-between;
+      gap: 55px;
+      margin-right: 20%;
+  }
+
+  .jornalismo-title .op button {
+      font-size: 20px;
+  }
+
+  .jornalismo-title .op button:hover {
+    color: #00367c;
+}
+
+/* FADES NOS CARDS DA TELA INICIAL */
+.flex-col-e-s {
+    position: relative;
+    overflow: hidden;
+}
+
+.flex-col-e-s a {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.flex-col-e-s::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+    z-index: 1;
+}
+
+.how1-child2 a {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+/* SOMBRA NO TEXTO PARA ELE DESTACAR DO FADE */
+.how-txt1 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+ 
+ 
+
+/* CADS ESPORTE */
+
+#box-esporte {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#box-esporte .card{
+    margin-right: 20px;
+}
+
+#box-esporte h5 {
+    color: #00367c;
+}
+
+.esporte-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 130px;
+}
+
+.esporte-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00367c;
+}
+
+.esporte-title .op {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    margin-right: 20%;
+}
+
+.esporte-title .op button {
+    font-size: 20px;
+}
+
+.esporte-title .op button:hover {
+  color: #00367c;
+}
+
+
+/* CADS ENTRETENIMENTO */
+
+#box-entretenimento {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#box-entretenimento .card{
+    margin-right: 20px;
+}
+
+#box-entretenimento h5 {
+    color: #00367c;
+}
+
+.entretenimento-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 130px;
+}
+
+.entretenimento-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00367c;
+}
+
+.entretenimento-title .op {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.entretenimento-title .op button {
+    font-size: 20px;
+}
+
+.entretenimento-title .op button:hover {
+  color: #00367c;
+  
+}
+
+
+/* -------------------------------- */
+
+
+
+/* ----------NAV BAR / MENU / BARRA DE NAVEGAÇÃO ------------ */
+
+.slogan {
+    background-image: url("imagens/slogan.png");
+    background-size: cover;;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.bg-light {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.slogan h2 {
+    align-items: center;
+}
+
+.slogan {
+    margin-top: 10px;
+}
+
+.dropdown .navbar-toggler {
+    background-color: #ffffff;
+}
+
+.dropdown .form-inline button {
+    background-color: #00367c;
+}
+
+.navbar {
+    background-color: #00367c;
+}
+
+/* -------------------------------------------------------- */
+
+/* BOTÃO VER MAIS */
+
+.vermais {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    margin-top: 200px;
+}
+
+footer #link a {
+    display: block;
+    margin-top: 10px;
+}
+
+footer #link h5 {
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 460px) {
+
+    .form-inline  .btn-primary {
+		display: none;
+	}
+
+	.form-inline .form-control {
+		display: none;
+	}
+
+	.navbar .logo{
+		transform: translateX(-30%);
+	}
+
+    .slogan h2 {
+        font-size: 20px;
+    }
+
+    .proga-datas button {
+        padding: 10px;
+    }
+
+    .jornalismo-title, .esporte-title, .entretenimento-title {
+        display: block;
+      }
+    
+      .jornalismo-title h1, .esporte-title h1, .entretenimento-title h1{
+          font-size: 35px;
+          text-align: center;
+          margin: 0 auto;
+      }
+    
+      .jornalismo-title .op, .esporte-title .op, .entretenimento-title .op {
+          gap: 30px;
+          margin: 0 auto;
+      }
+    
+      .jornalismo-title .op button, .esporte-title .op button, .entretenimento-title .op button{
+          font-size: 16px;
+      }
+
+      
+    #box-entretenimento, #box-esporte , #box-jornal {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #box-entretenimento .card, #box-esporte .card, #box-jornal .card{
+        margin-right: 0px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+} @media only screen and (min-width: 461px) and (max-width: 575px){
+
+
+	.form-inline  .btn-primary {
+		display: none;
+	}
+
+	.form-inline .form-control {
+		display: none;
+	}
+
+	.navbar .logo{
+		transform: translateX(-80%);
+	}
+
+
+    .navbar input {
+        width: 10px;
+    }
+    
+    .slogan h2 {
+        font-size: 20px;
+    }
+    
+
+    .proga-datas button {
+        padding: 10px;
+    }
+
+    .jornalismo-title, .esporte-title, .entretenimento-title {
+        display: block;
+      }
+    
+      .jornalismo-title h1, .esporte-title h1, .entretenimento-title h1{
+          font-size: 40px;
+          text-align: center;
+          margin: 0 auto;
+      }
+    
+      .jornalismo-title .op, .esporte-title .op, .entretenimento-title .op {
+          gap: 40px;
+          margin: 0 auto;
+      }
+    
+      .jornalismo-title .op button, .esporte-title .op button, .entretenimento-title .op button{
+          font-size: 20px;
+      }
+
+      
+    #box-entretenimento, #box-esporte , #box-jornal {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #box-entretenimento .card, #box-esporte .card, #box-jornal .card{
+        margin-right: 0px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+
+    .form-inline {
+        display: block;
+    }
+
+    .form-inline input {
+        display:flex;
+        width: -55px;
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        background-color: #ffffff;
+    }
+    
+    .slogan h2 {
+        font-size: 25px;
+    }
+
+    .proga-datas button {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .jornalismo-title, .esporte-title, .entretenimento-title {
+        display: block;
+      }
+    
+      .jornalismo-title h1, .esporte-title h1, .entretenimento-title h1{
+          font-size: 50px;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 10px;
+      }
+    
+      .jornalismo-title .op, .esporte-title .op, .entretenimento-title .op {
+          gap: 50px;
+          margin: 0 auto;
+      }
+    
+      .jornalismo-title .op button, .esporte-title .op button, .entretenimento-title .op button{
+          font-size: 20px;
+      }
+
+      .card-text:last-child {
+          font-size: 13px;
+      }
+
+      
+    #box-entretenimento, #box-esporte , #box-jornal {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #box-entretenimento .card, #box-esporte .card, #box-jornal .card{
+        margin-right: 0px;
+        margin: 0 auto;
+        margin-right: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 950px){
+
+    .navbar-light .navbar-toggler {
+        background-color: #ffffff;
+    }
+    
+    .bg-light {
+        width: 80%;
+    }
+
+    .slogan h2 {
+        font-size: 25px;
+    }
+
+    .proga-datas button {
+        padding: 13px;
+        font-size: 13px;
+    }
+
+    .jornalismo-title, .esporte-title, .entretenimento-title {
+        display: block;
+      }
+    
+      .jornalismo-title h1, .esporte-title h1, .entretenimento-title h1{
+          font-size: 50px;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 10px;
+      }
+    
+      .jornalismo-title .op, .esporte-title .op, .entretenimento-title .op {
+          gap: 50px;
+          margin: 0 auto;
+      }
+    
+      .jornalismo-title .op button, .esporte-title .op button, .entretenimento-title .op button{
+          font-size: 20px;
+      }
+
+      .card-text:last-child {
+          font-size: 15px;
+      }
+
+      
+    #box-entretenimento, #box-esporte , #box-jornal {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #box-entretenimento .card, #box-esporte .card, #box-jornal .card{
+        margin-right: 0px;
+        margin: 0 auto;
+        margin-right: 10px;
+    }
+
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* opcional: para definir como a imagem será redimensionada para se ajustar às dimensões definidas */
+}  
+
+
+/*
+@media only screen and (max-width: 460px)
+@media only screen and (min-width: 461px) and (max-width: 575px)
+@media only screen and (min-width: 576px) and (max-width: 767px)
+@media only screen and (min-width: 767px) and (max-width: 950px) */
