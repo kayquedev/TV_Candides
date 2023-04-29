@@ -1,0 +1,421 @@
+/*Template Name: Simple Construction Website 
+Template URI: https://www.template.net
+Author: Template.net
+Author URI: https://www.template.net
+License: Template.net
+License URI: https://www.template.net/license-agreement
+*/
+
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+figure {
+	margin: 0;
+}
+
+.inscricao {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	line-height: 1.3;
+	overflow-x: hidden;
+	font-family: 'Cabin Condensed', sans-serif;
+
+}
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+textarea {
+	resize: none;
+}
+
+hr {
+	margin-bottom: 0;
+}
+
+.container {
+	max-width: 1410px;
+}
+
+
+/*-- inscricao start --*/
+.inscricao {
+	background-color: #f7f7f7;
+	padding: 80px 0;
+	margin-bottom: 95px;
+}
+
+.inscricao h2 {
+	font-size: 50px;
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	margin-left: 19%;
+	margin-bottom: 32px;
+}
+
+.inscricao .owl-stage .owl-item {
+	padding: 0;
+	margin-left: -80px;
+}
+
+.inscricao .owl-item .item {
+	height: 100%;
+}
+
+.inscricao .owl-item .item img {
+	max-height: 100%;
+	max-width: 100%;
+	height: 200px;
+	width: 275px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.inscricao .item figure {
+	position: relative;
+}
+
+.inscricao .item .content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transition: all 0.5s;
+	color: #fff;
+	opacity: 1;
+	padding: 185px 45px 57px 75px;
+}
+
+.inscricao .item .content:hover {
+	background-color: #00000033;
+	opacity: 1;
+}
+
+
+.inscricao .item h3 a {
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.inscricao .item h3 a:hover {
+	color: #fdb714;
+}
+
+.inscricao .item h3 {
+	margin-bottom: 15px;
+
+}
+
+.inscricao .item p {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.inscricao .carousel {
+	cursor: move;
+}
+
+.inscricao .carousel .row {
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 50px;
+
+}
+
+.inscricao .carousel .row .col-12 {
+	padding: 0;
+}
+
+.inscricao .owl-carousel .owl-nav.disabled {
+	display: block;
+	text-align: center;
+	margin-top: 65px;
+}
+
+.inscricao .owl-dots {
+	display: none;
+}
+
+.inscricao .owl-carousel .owl-nav button.owl-prev span {
+	color: #ffffff;
+	font-size: 28px;
+	line-height: 24px;
+
+}
+
+.inscricao .owl-carousel .owl-nav button.owl-next span {
+	color: #ffffff;
+	font-size: 28px;
+	line-height: 24px;
+
+}
+
+.inscricao .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+	background-color: #c2c2c2;
+	padding: 5px 37px !important;
+	border-radius: 5px;
+	margin-right: 22px;
+	transition: 0.6s;
+}
+
+.inscricao .owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+	background-color: #363636;
+}
+
+.inscricao button:focus {
+	outline: 0 dotted;
+	outline: 0;
+}
+
+/*-- inscricao end --*/
+
+
+/*
+				=================
+				  media query
+				=================
+				*/
+
+
+				@media only screen and (max-width: 1920px) and (min-width: 1430px) {
+					.container {
+						max-width: 1410px;
+					}
+				
+				}
+				
+				@media only screen and (max-width: 1440px) {
+					.container {
+						max-width: 1300px;
+					}
+				
+					header .navbar-expand-lg {
+						padding: 25px 0;
+					}
+				
+					header .navbar .nav-item .nav-link {
+						font-size: 18px;
+						padding: 0 8px;
+					}
+					
+					
+					.inscricao .owl-stage .owl-item {
+						width: 249px !important;
+					}
+					
+					.inscricao {
+						padding: 60px 0;
+					}
+				
+					.inscricao .owl-stage .owl-item {
+						margin-left: -108px;
+					}
+				
+					.inscricao .owl-item .item img {
+						width: 100%;
+					}
+				
+					.inscricao h2 {
+						font-size: 40px;
+						margin-bottom: 25px;
+						margin-left: 10%;
+					}
+
+					footer p {
+						margin-right: 0;
+					}
+				
+					footer iframe {
+						width: 560px;
+					}
+				}
+				
+				@media only screen and (max-width: 1024px) {
+					.container {
+						max-width: 100%;
+					}
+				
+					.inscricao .item .content {
+						padding: 150px 30px 0;
+					}
+				
+					.inscricao .owl-stage .owl-item {
+						margin-left: -100px;
+						width: 275px !important;
+					}
+				
+					.inscricao .item h3 a {
+						font-size: 28px;
+					}
+				
+					.inscricao .item p {
+						font-size: 16px;
+					}
+			
+				}
+				
+				@media only screen and (max-width: 814px) {
+					header {
+						background-color: #000000b8;
+					}
+				
+					.navbar-light .navbar-toggler {
+						color: rgba(0, 0, 0, .5);
+						border-color: rgb(253, 183, 20);
+						background-color: #fdb714;
+					}
+				
+					.navbar-light .navbar-nav .active > .nav-link {
+						border-bottom: 0;
+					}
+				
+					header .navbar .nav-item .nav-link {
+						font-size: 15px;
+						margin: 10px 0;
+					}
+				
+					header .navbar .nav-item .nav-link:hover {
+						border-bottom: 0;
+						background-color: #fdb714;
+					}
+				
+				
+					.inscricao .owl-stage .owl-item {
+						margin-left: -108px;
+					}
+				
+				
+					footer p {
+						font-size: 16px;
+						line-height: 30px;
+					}
+				}
+				
+				@media only screen and (max-width: 640px) {
+					.banner .banner-inner {
+						padding-left: 0;
+					}
+				
+					footer .navbar-nav {
+						padding-left: 0;
+					}
+				}
+				
+				@media only screen and (max-width: 480px) {
+					.banner .banner-inner h1 {
+						font-size: 32px;
+					}
+				
+					.banner .banner-inner .btn {
+						font-size: 17px;
+					}
+				
+					.banner .banner-inner span a {
+						font-size: 15px;
+						margin-left: 15px;
+					}
+				
+					.inscricao .owl-stage .owl-item {
+						width: 385px !important;
+					}
+				
+					.inscricao h2 {
+						font-size: 30px;
+						margin-bottom: 35px;
+						margin-left: 0;
+						text-align: center;
+					}
+				
+					footer p,
+					span {
+						font-size: 16px;
+					}
+				}
+				
+				@media only screen and (max-width: 375px) {
+					.banner .banner-inner h1 {
+						font-size: 28px;
+					}
+				
+					.banner .banner-inner .btn {
+						font-size: 15px;
+						letter-spacing: 1px;
+						padding: 12px 25px;
+						border: 2px solid transparent;
+						margin-left: 0;
+					}
+			
+				
+					.inscricao .owl-stage .owl-item {
+						width: 349px !important;
+					}
+				
+				
+					footer h5 a {
+						display: block;
+					}
+				
+					footer span a {
+						margin-right: 18px;
+					}
+				
+					footer h5 sub {
+						display: none;
+					}
+				}
+				
